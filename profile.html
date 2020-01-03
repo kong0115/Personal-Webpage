@@ -1,33 +1,108 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta name="viewport" content="width=device-width" initial-scale="1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="navigation.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Siang Swee Kong</title>
-  </head>
-  <body>
-    <ul class="navigation">
-      <li><a href="#about">ABOUT</a></li>
-      <li><a href="#experience">EXPERIENCE</a></li>
-      <li><a href="#project">PROJECT</a></li>
-      <li><a href="#contact">CONTACT</a></li>
-    </ul>
-    <div id="about">
-      About
-    </div>
-    <div id="experience">
-      Experience
-    </div>
-    <div id="project">
-      Project
-    </div>
-    <div id="contact">
-      Contact
-    </div>
-    <i class="fa fa-linkedin-square" style="font-size:124px"></i>
-    <i class="fa fa-github" style="font-size:124px"></i>
-    <i class="fa fa-envelope" style="font-size:124px"></i>
-  </body>
-</html>
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <meta name="viewport" content="width=device-width" initial-scale="1.0">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <link rel="stylesheet" href="navigation.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="icon" href="favicon.png">
+      <title>Siang Swee Kong</title>
+      <style>
+        a{
+          color: black;
+        }
+        a:hover{
+          text-decoration: none;
+        }
+        .section{
+          text-align: center;
+          font-size: 20px;
+        }
+
+        .section{
+          font-weight: bold;
+          font-size: 48px;
+          color: #555;
+        }
+      </style>
+    </head>
+    <body>
+      <ul class="navigation">
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#experience">EXPERIENCE</a></li>
+        <li><a href="#project">PROJECT</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+      <div id="about">
+        <p class="section">About</p>
+        <div class="card mb-3">
+          <div class="row no-gutters">
+            <div class="col-md-2">
+              <img src="Headshot.jpg" class="card-img" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Software Engineer</h5>
+                <p class="card-text">Hi, my name is Siang Swee Kong, but I usually go by Raymond.</p>
+                <p class="card-text">I am currently an undergraduate computer science student at the University of Texas at Dallas and expected to graduate in May 2020. I am a software engineer with 3 months intern experience developing new software and dealing wtih database queries. I also have great enthusiasm in learning the latest technology stack.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="experience">
+        <p class="section">Experience</p>
+        <div class="card">
+          <h4 class="card-header">Software Engineer Intern</h4>
+          <div class="card-body">
+            <a href="https://www.3logytech.com"><h5 class="card-title">Trilogy Technologies</h5></a>
+            <p class="card-text">Programmed a robot to scan the book shelf and designed a sorting algorithm to sort the books on the shelf correctly.</p>
+            <ul>
+              <li>Coded a series of robot motions and commands in C# program to control the robot arm so it would take out all misplaced books
+                on the shelf based on the scanning result and place them back to the correct location as indicated in the library database. </li>
+              <li>Worked on the RFID research to solve the RFID problems that caused the inaccurate scanning.</li>
+            </ul>
+            <footer class="blockquote-footer">May 2019 - August 2019</footer>
+          </div>
+        </div>
+      </div>
+      <div id="project">
+        <p class="section">Project</p>
+        <div class="card">
+          <h4 class="card-header">Pacemaker Application</h4>
+          <div class="card-body">
+            <p class="card-title">Led a team of 6 to design a mobile application that can record and display users’ heart rate and blood condition. </p>
+            <ul>
+              <li>Implemented both agile and plan-driven software processes, discovered functional and non-functional requirements, and drew use case diagrams, sequence diagrams, and class diagrams.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card">
+          <a href="https://github.com/kong0115/Apartments.com-web-Scrapping"><h4 class="card-header">Apartments.com Web Scrapping</h4></a>
+          <div class="card-body">
+            <p class="card-text">Web scrapping apartments data in a region from Apartments.com to extract and organize advanced details for further data analysis.</p>
+          </div>
+        </div>
+        <div class="card">
+          <a href="https://github.com/kong0115/Personal-Webpage"><h4 class="card-header">Personal Website</h4></a>
+          <div class="card-body">
+            <p class="card-text">My personal website that you currently seeing right now, it is responsive and mobile friendly.</p>
+          </div>
+        </div>
+      <div id="contact">
+        <p class="section">Contact</p>
+        <div class="container">
+          <div class="row">
+            <div class="col align-self-center" style="text-align: center">
+              <a href="https://www.linkedin.com/in/siang-swee-kong-973482159" title="LinkedIn"><i class="fa fa-linkedin-square" style="font-size:64px"></i></a>
+              <a href="https://github.com/kong0115" title="GitHub"><i class="fa fa-github" style="font-size:64px"></i></a>
+              <a href="mailto:siangswee1998@gmail.com" title="Email"><i class="fa fa-envelope" style="font-size:64px"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer className="ft" style="text-align:center">
+        <small>© 2019 <b className="author">Siang Swee Kong</b>. All Rights Reserved</small>
+      </footer>
+    </body>
+  </html>
