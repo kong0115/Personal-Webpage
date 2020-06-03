@@ -1,6 +1,6 @@
-  <!DOCTYPE html>
-  <html>
-    <head>
+<!DOCTYPE html>
+<html>
+   <head>
       <meta name="viewport" content="width=device-width" initial-scale="1.0">
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
       <link rel="stylesheet" href="./navigation.css">
@@ -8,116 +8,138 @@
       <link rel="icon" href="./favicon.png">
       <title>Siang Swee Kong</title>
       <style>
-        a{
-          color: black;
-        }
-        a:hover{
-          text-decoration: none;
-        }
-        .section{
-          text-align: center;
-          font-size: 20px;
-        }
+         a {
+            color: black;
+         }
 
-        .section{
-          font-weight: bold;
-          font-size: 48px;
-          color: #555;
-        }
+         a:hover {
+            text-decoration: none;
+         }
+
+         .section {
+            text-align: center;
+            font-size: 20px;
+         }
+
+         .section {
+            font-weight: bold;
+            font-size: 48px;
+            color: #555;
+         }
       </style>
-    </head>
-    <body>
+   </head>
+
+   <body>
       <ul class="navigation">
-        <li><a href="#about">ABOUT</a></li>
-        <li><a href="#experience">EXPERIENCE</a></li>
-        <li><a href="#project">PROJECTS</a></li>
-        <li><a href="#contact">CONTACTS</a></li>
+         <li><a href="#about">ABOUT</a></li>
+         <li><a href="#experience">EXPERIENCE</a></li>
+         <li><a href="#project">PROJECTS</a></li>
+         <li><a href="#contact">CONTACTS</a></li>
       </ul>
       <div id="about">
-        <p class="section">About</p>
-        <div class="card mb-3">
-          <div class="row no-gutters">
-            <div class="col-md-2">
-              <img src="Headshot.jpg" class="card-img" alt="...">
+         <p class="section">About</p>
+         <div class="card mb-3">
+            <div class="row no-gutters">
+               <div class="col-md-2">
+                  <img src="Headshot.jpg" class="card-img" alt="...">
+               </div>
+               <div class="col-md-8">
+                  <div class="card-body">
+                     <h5 class="card-title">Software Engineer</h5>
+                     <p class="card-text">Hi, my name is Siang Swee Kong, but I usually go by Raymond.</p>
+                     <p class="card-text">I graduated in May 2020 from the University of Texas at Dallas with a bachelor's degree in Computer Science. I am a software engineer with 3 months intern experience developing new
+                        software and writing database queries. I also have great enthusiasm in learning the latest technology stack.</p>
+                  </div>
+               </div>
             </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Software Engineer</h5>
-                <p class="card-text">Hi, my name is Siang Swee Kong, but I usually go by Raymond.</p>
-                <p class="card-text">I am currently an undergraduate computer science student at the University of Texas at Dallas and expecting to graduate in May 2020. I am a software engineer with 3 months intern experience developing new software and dealing wtih database queries. I also have great enthusiasm in learning the latest technology stack.</p>
-              </div>
-            </div>
-          </div>
-        </div>
+         </div>
       </div>
       <div id="experience">
-        <p class="section">Experience</p>
-        <div class="card">
-          <h4 class="card-header">Software Engineer Intern</h4>
-          <div class="card-body">
-            <a href="https://www.3logytech.com"><h5 class="card-title">Trilogy Technologies</h5></a>
-            <ul>
-              <li>Developed a C# program with the .NET framework for a library robot project that controlled the robot arm to scan the bookshelf using RFID technology and took out misplaced books on the shelf and put them back to the correct position.</li>
-              <li>Utilized MySQL to create a database that stored information about all the library books, performed MySQL queries and compared the queries’ results with the scanning results to identify the books that were misplaced.</li>
-              <li>Conducted research on RFID technology to improve the accuracy of the scanning results from the RFID antenna.</li>
-              <li>Designed an efficient sorting algorithm to sort the books on the shelf with minimum number of book replacements. </li>
-            </ul>
-            <footer class="blockquote-footer">May 2019 - August 2019</footer>
-          </div>
-        </div>
+         <p class="section">Experience</p>
+         <div class="card">
+            <h4 class="card-header">Software Engineer Intern</h4>
+            <div class="card-body">
+               <a href="https://www.3logytech.com">
+                  <h5 class="card-title">Trilogy Technologies</h5>
+               </a>
+               <ul>
+                  <li>Developed a C# program with the .NET framework for a library robot project that controlled the robot arm to scan the bookshelf using RFID technology and took out misplaced books on the shelf and put them back to the correct
+                     position.</li>
+                  <li>Utilized MySQL to create a database that stored information about all the library books, performed MySQL queries and compared the queries’ results with the scanning results to identify the books that were misplaced.</li>
+                  <li>Conducted research on RFID technology to improve the accuracy of the scanning results from the RFID antenna.</li>
+               </ul>
+               <footer class="blockquote-footer">May 2019 - August 2019</footer>
+            </div>
+         </div>
       </div>
       <div id="project">
-        <p class="section">Projects</p>
-        <div class="card">
-          <a href="https://github.com/kong0115/Book-Review-Web-App"><h4 class="card-header">Book Review Web Application</h4></a>
-          <div class="card-body">
-            <p class="card-text">A web application that allows users to search for books in the database, see the details and reviews for individual books, and write reviews for books.</p>
-            <footer class="blockquote-footer">February 2020</footer>
-          </div>
-        </div>
-        <div class="card">
-          <a href="https://github.com/kong0115/Personal-Webpage"><h4 class="card-header">Personal Webpage</h4></a>
-          <div class="card-body">
-            <p class="card-text">My personal webpage about myself that you visit right now. This is a responsive and mobile-friendly created using HTML5, CSS, and bootstrap. </p>
-            <footer class="blockquote-footer">January 2020</footer>
-          </div>
-        </div>
-        <div class="card">
-          <a href="https://github.com/kong0115/Apartments.com-web-Scrapping"><h4 class="card-header">Web Scrapping</h4></a>
-          <div class="card-body">
-            <p class="card-text">Web scrapping apartments data in a region from Apartments.com to extract and organize advanced details for further data analysis.</p>
-            <footer class="blockquote-footer">April 2019 - June 2019</footer>
-          </div>
-        </div>
-        <div class="card">
-          <a href="https://github.com/kong0115/Pacman-CTF"><h4 class="card-header">Pacman Capture The Flag</h4></a>
-          <div class="card-body">
-            <p class="card-text">Designed an offensive agent to steal the enemy pellets and bring them back alive to my base, and a defensive agent to protect the pellets on my territory being stolen by the enemy team.</p>
-            <footer class="blockquote-footer">March 2019 - May 2019</footer>
-          </div>
-        </div>
-        <div class="card">
-          <h4 class="card-header">Pacemaker Application</h4>
-          <div class="card-body">
-            <p class="card-text">Led a team of 6 to design a mobile application that can record and display users’ heart rates and blood conditions.</p>
-            <footer class="blockquote-footer">August 2018 - December 2018</footer>
-          </div>
-        </div>
+         <p class="section">Projects</p>
+         <div class="card">
+            <h4 class="card-header">Procurement Manager</h4>
+            <div class="card-body">
+               <p class="card-text">Worked with a team of 6 to design a web application for the sponsor to handle the submission and processing of procurement requests for school projects.</p>
+               <footer class="blockquote-footer">January 2020 - May 2020</footer>
+            </div>
+         </div>
+         <div class="card">
+            <a href="https://github.com/kong0115/Book-Review-Web-App">
+               <h4 class="card-header">Book Review Web Application</h4>
+            </a>
+            <div class="card-body">
+               <p class="card-text">A web application that allows users to search for books in the database, see the details and reviews for individual books, and write reviews for books.</p>
+               <footer class="blockquote-footer">February 2020</footer>
+            </div>
+         </div>
+         <div class="card">
+            <a href="https://github.com/kong0115/Personal-Webpage">
+               <h4 class="card-header">Personal Webpage</h4>
+            </a>
+            <div class="card-body">
+               <p class="card-text">My personal webpage about myself that you visit right now. This is a responsive and mobile-friendly created using HTML5, CSS, and bootstrap. </p>
+               <footer class="blockquote-footer">January 2020</footer>
+            </div>
+         </div>
+         <div class="card">
+            <a href="https://github.com/kong0115/Apartments.com-web-Scrapping">
+               <h4 class="card-header">Web Scrapping</h4>
+            </a>
+            <div class="card-body">
+               <p class="card-text">Web scrapping apartments data in a region from Apartments.com to extract and organize advanced details for further data analysis.</p>
+               <footer class="blockquote-footer">April 2019 - June 2019</footer>
+            </div>
+         </div>
+         <div class="card">
+            <a href="https://github.com/kong0115/Pacman-CTF">
+               <h4 class="card-header">Pacman Capture The Flag</h4>
+            </a>
+            <div class="card-body">
+               <p class="card-text">Designed an offensive agent to steal the enemy pellets and bring them back alive to my base, and a defensive agent to protect the pellets on my territory being stolen by the enemy team.</p>
+               <footer class="blockquote-footer">March 2019 - May 2019</footer>
+            </div>
+         </div>
+         <div class="card">
+            <h4 class="card-header">Pacemaker Application</h4>
+            <div class="card-body">
+               <p class="card-text">Led a team of 6 to design a mobile application that can record and display users’ heart rates and blood conditions.</p>
+               <footer class="blockquote-footer">August 2018 - December 2018</footer>
+            </div>
+         </div>
       </div>
       <div id="contact">
-        <p class="section">Contacts</p>
-        <div class="container">
-          <div class="row">
-            <div class="col align-self-center" style="text-align: center">
-              <a href="https://www.linkedin.com/in/siang-swee-kong-973482159" title="LinkedIn"><i class="fa fa-linkedin-square" style="font-size:64px"></i></a>
-              <a href="https://github.com/kong0115" title="GitHub"><i class="fa fa-github" style="font-size:64px"></i></a>
-              <a href="mailto:siangswee1998@gmail.com" title="Email"><i class="fa fa-envelope" style="font-size:64px"></i></a>
+         <p class="section">Contacts</p>
+         <div class="container">
+            <div class="row">
+               <div class="col align-self-center" style="text-align: center">
+                  <a href="https://www.linkedin.com/in/siang-swee-kong-973482159" title="LinkedIn"><i class="fa fa-linkedin-square" style="font-size:64px"></i></a>
+                  <a href="https://github.com/kong0115" title="GitHub"><i class="fa fa-github" style="font-size:64px"></i></a>
+                  <a href="mailto:siangswee1998@gmail.com" title="Email"><i class="fa fa-envelope" style="font-size:64px"></i></a>
+               </div>
             </div>
-          </div>
-        </div>
+         </div>
       </div>
       <footer className="ft" style="text-align:center">
-        <small>© 2019 <b className="author">Siang Swee Kong</b>. All Rights Reserved</small>
+         <small>© 2020 <b className="author">Siang Swee Kong</b>. All Rights Reserved</small>
       </footer>
-    </body>
-  </html>
+   </body>
+
+</html>
